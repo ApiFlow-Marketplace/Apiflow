@@ -56,11 +56,11 @@ O API Flow simplifica integrações, impulsiona a inovação e transforma APIs e
 
   - Há diversos exemplos de implementação em múltiplas linguagens disponíveis neste repositório  
 
-	1. dart/flutter : [/dart-flutter](./dart-flutter)
-	2. dotnet : [/dotnet](./dotnet)
-	3. java : [/java](./java)
-	4. javascript : [/javascript](./javascript)
-	5. python : [/python](./python)
+	1. dart/flutter : [/exemplos/dart-flutter](./exemplos/dart-flutter)
+	2. dotnet : [/exemplos/dotnet](./exemplos/dotnet)
+	3. java : [/exemplos/java](./exemplos/java)
+	4. javascript : [/exemplos/javascript](./exemplos/javascript)
+	5. python : [/exemplos/python](./exemplos/python)
 
 
 ## Recursos Adicionais

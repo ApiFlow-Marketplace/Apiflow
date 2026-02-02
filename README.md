@@ -52,14 +52,17 @@ O API Flow simplifica integrações, impulsiona a inovação e transforma APIs e
 
 - O token de autenticação deve ser incluído no header `Authorization: Bearer <token>`
 
-    graph TD
-        %% Entry point
-        A[Aplicação Cliente]
+```mermaid
+graph TD;
+    %% Entry point;
+    A[Aplicação Cliente];
 
-        %% Main options
-        A -- (Person_id, client_id, client_secret) ---> B{{Endpoint Autorização}}
-        B -- (Token) ---> A
-        A -- (`Authorization: Bearer <token>`) ---> C{{Endpoint da API Desejada}}
+    %% Main options;
+    A -- (Person_id, client_id, client_secret) ---> B{{Endpoint Autorização}};
+    B -- (Token) ---> A;
+    A -- (`Authorization: Bearer <token>`) ---> C{{Endpoint da API Desejada}};
+```
+
 
 ## Exemplos nas principais linguagens de programação
 
